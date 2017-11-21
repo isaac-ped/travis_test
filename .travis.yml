@@ -4,6 +4,6 @@ script: make && make test
 deploy:
     provider: pages
     skip_cleanup: true
-    github_token: 83NX8SD6XemDRh3vfK41
+    github_token: $GITHUB_TOKEN
     on:
         branch: master
